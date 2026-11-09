@@ -57,9 +57,13 @@ taskkill /f /im SoundKeeper64.exe
 ```
 
 Then create a desktop shortcut for the batch file which calls the cmd.exe to be able to pin it on the system tray with the target:
+
 C:\Windows\System32\cmd.exe /c "C:\Garzanti\Garzanti.bat"
-Change the icon to the one from:
-%SystemDrive%\Garzanti\Garzanti_it.exe - wherever your dictionary installation has the .exe file
+
+Change the icon to the one from (or wherever your dictionary installation has the .exe file):
+```
+%SystemDrive%\Garzanti\Garzanti_it.exe 
+```
 Set the run to Minimized and use it.
 
 
