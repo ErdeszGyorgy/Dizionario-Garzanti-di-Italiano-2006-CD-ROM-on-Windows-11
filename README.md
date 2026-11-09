@@ -42,9 +42,25 @@ Then restart the dictionary.
 If you use bluetooth ear buds, the sound is delayed. With SoundKeeper you can eliminate this delay. You can download it from here:
 https://github.com/vrubleg/soundkeeper
 
-The use the Garzanti.bat file to open SoundKeeper while you open the dictionary, and close it while you close the dictionary.
+Then use the Garzanti.bat file to open SoundKeeper while you open the dictionary, and close it while you close the dictionary. The folders in the batch file are:
+C:\SoundKeeper\SoundKeeper64.exe
+C:\Garzanti - the folder of the installed dictionary
 
-Use it from a desktop shortcut cmd.exe (rename it) to be able to put it onto the taskbar and eliminate the cdm window being shown.
+Change the folders in the batch file as you used them.
+
+```cmd
+@echo off
+start "" "C:\SoundKeeper\SoundKeeper64.exe"
+cd /d C:\Garzanti
+start "" /wait Garzanti_it.exe
+taskkill /f /im SoundKeeper64.exe
+```
+
+Then create a desktop shortcut for the batch file which calls the cmd.exe to be able to pin it on the system tray with the target:
+C:\Windows\System32\cmd.exe /c "C:\Garzanti\Garzanti.bat"
+Change the icon to the one from:
+%SystemDrive%\Garzanti\Garzanti_it.exe - wherever your dictionary installation has the .exe file
+Set the run to Minimized and use it.
 
 
 
