@@ -7,7 +7,7 @@ The audio is compressed into the ita_audio.waves file, using the Sipro Lab ACELP
 
 **Steps:**
 
-1. You need these two files:
+1. You need these two files from XP Pro folder `C:\WINDOWS\system32` (included here for download):
 * `acelpdec.ax` (this is the key one)
 * `sl_anet.acm` (this is just a backup)
 
