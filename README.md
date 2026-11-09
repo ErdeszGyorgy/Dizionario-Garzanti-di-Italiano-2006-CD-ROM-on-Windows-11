@@ -43,7 +43,9 @@ If you use bluetooth ear buds, the sound is delayed. With SoundKeeper you can el
 https://github.com/vrubleg/soundkeeper
 
 Then use the Garzanti.bat file to open SoundKeeper while you open the dictionary, and close it while you close the dictionary. The folders in the batch file are:
+
 C:\SoundKeeper\SoundKeeper64.exe
+
 C:\Garzanti - the folder of the installed dictionary
 
 Change the folders in the batch file as you used them.
