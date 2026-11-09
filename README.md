@@ -37,3 +37,15 @@ reg delete "HKCU\Software\Microsoft\Multimedia\ActiveMovie\Filter Cache" /f
 ```
 
 Then restart the dictionary.
+
+-----------------------------------------------------------------------------------
+If you use bluetooth ear buds, the sound is delayed. With SoundKeeper you can eliminate this delay. You can download it from here:
+https://github.com/vrubleg/soundkeeper
+
+The use the Garzanti.bat file to open SoundKeeper while you open the dictionary, and close it while you close the dictionary.
+
+Use it from a desktop shortcut cmd.exe (rename it) to be able to put it onto the taskbar and eliminate the cdm window being shown.
+
+
+
+
